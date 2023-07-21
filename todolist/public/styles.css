@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto",Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.entirePage{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image:url(./bgImage.jpg);
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.entireList{
+    background-color: rgba(255, 255, 255, .15); 
+    backdrop-filter: blur(5px);
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
