@@ -8,7 +8,7 @@ function ToDoList(params) {
         <div className="entireList">
             <h2>To-Do List <ListAltIcon /></h2>
             <AddNewItem/>
-            <ShowItems/>
+            <ShowItems />
         </div>
     
     );
