@@ -5,7 +5,7 @@ import Fab from '@mui/material/Fab';
 import DeleteIcon from '@mui/icons-material/Delete';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 function ShowItems(){
-    const controls={
+    const controlButtons={
         margin:"0 0 0 .5rem",
         color:"#ffffff"
     }
@@ -37,10 +37,10 @@ function ShowItems(){
                 ToDo Items
             </p>
             <div className="itemControls">
-                <Zoom in={true} style={controls}>
+                <Zoom in={true} style={controlButtons}>
                     <EditRoundedIcon />
                 </Zoom>
-                <Zoom in={true} style={controls}>
+                <Zoom in={true} style={controlButtons}>
 
                     <DeleteIcon />
                 </Zoom>
